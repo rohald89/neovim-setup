@@ -1,4 +1,10 @@
-local colorscheme = "monokai_pro"
+-- local colorscheme = "tokyonight-storm" -- default / storm / night / moon / day
+local colorscheme = "sonokai"
+
+if colorscheme == "sonokai" then
+  vim.g['sonokai_style'] = 'atlantis' -- default / andromeda / espresso / maia / shusia / atlantis
+  vim.g['sonokai_better_performance'] = 1
+end
 
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 
