@@ -1,5 +1,6 @@
--- local colorscheme = "tokyonight-storm" -- default / storm / night / moon / day
-local colorscheme = "sonokai"
+local colorscheme = "nord" -- default / storm / night / moon / day
+--[[ local colorscheme = "tokyonight" -- default / storm / night / moon / day ]]
+--[[ local colorscheme = "sonokai" ]]
 
 if colorscheme == "sonokai" then
   vim.g['sonokai_style'] = 'atlantis' -- default / andromeda / espresso / maia / shusia / atlantis

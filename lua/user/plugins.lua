@@ -50,6 +50,7 @@ return packer.startup(function(use)
   -- Colorschemes
   use 'sainnhe/sonokai'
   use 'folke/tokyonight.nvim'
+  use 'shaunsingh/nord.nvim'
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -76,8 +77,11 @@ return packer.startup(function(use)
     run = ":TSUpdate",
   }
   use "p00f/nvim-ts-rainbow"
-  use "nvim-treesitter/playground"
+  --[[ use "nvim-treesitter/playground" ]] -- playground for treesitter. Nice plugin for creating themes
   use 'JoosepAlviste/nvim-ts-context-commentstring'
+
+  -- Git
+  use "lewis6991/gitsigns.nvim"
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
