@@ -48,6 +48,11 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim" -- Easily comment stuff
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
+<<<<<<< Updated upstream
+=======
+  use 'nvim-lualine/lualine.nvim'
+  use 'folke/which-key.nvim'
+>>>>>>> Stashed changes
 
   -- Colorschemes
   use 'sainnhe/sonokai'
