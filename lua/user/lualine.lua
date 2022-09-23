@@ -75,11 +75,7 @@ lualine.setup({
 		lualine_a = { branch, diagnostics },
 		lualine_b = { mode },
 		lualine_c = {},
-<<<<<<< HEAD
 		--[[ lualine_x = { "encoding", "fileformat", "filetype" }, ]]
-=======
-		-- lualine_x = { "encoding", "fileformat", "filetype" },
->>>>>>> 672dc1de8303a0ad683e6283164fb27c752fe9af
 		lualine_x = { diff, spaces, "encoding", filetype },
 		lualine_y = { location },
 		lualine_z = { progress },
