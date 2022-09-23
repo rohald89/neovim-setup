@@ -13,4 +13,7 @@ require "user.nvim-tree"
 require "user.bufferline"
 require "user.toggleterm"
 require "user.lualine"
+<<<<<<< HEAD
 require "user.whichkey"
+=======
+>>>>>>> 672dc1de8303a0ad683e6283164fb27c752fe9af
